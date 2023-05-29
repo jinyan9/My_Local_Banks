@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/dbsbackground"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/dbs_3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dbs"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="175dp"
+                android:layout_marginBottom="100dp"
+                android:layout_weight="1"
+                android:background="#C90E0E0E"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/dbs"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#611F1F" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ocbcbackground"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/ocbc_1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ocbc"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="150dp"
+                android:layout_marginBottom="100dp"
+                android:layout_weight="1"
+                android:background="#BEFF040C"
+                android:backgroundTint="#A4FF0E52"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/ocbc"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FF1A49"
+                android:textColorHint="#E60D0D" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/uobbackground"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/uob_2blur"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/uob"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="175dp"
+                android:layout_marginBottom="100dp"
+                android:layout_weight="1"
+                android:background="#B43BA0E3"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/uob"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#70A8EC" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFD0FE"
+                android:text="@string/info" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
